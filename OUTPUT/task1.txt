@@ -1,0 +1,14 @@
+--- DEBUG ---
+counter = 319293
+Time = 20393 microseconds
+counter = 377188
+Time = 15269 microseconds
+counter = 436717
+Time = 17222 microseconds
+--- RELEASE ---
+counter = 500000
+Time = 735 microseconds
+counter = 700000
+Time = 966 microseconds
+counter = 600000
+Time = 843 microseconds

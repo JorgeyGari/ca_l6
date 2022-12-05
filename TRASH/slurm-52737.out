@@ -1,0 +1,72 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/release
+Consolidate compiler generated dependencies of target counter
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp: En la función ‘int main()’:
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:31:25: error: no match for ‘operator=’ (operand types are ‘counter’ and ‘int’)
+   31 |                 count = 0;
+      |                         ^
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota: candidate: ‘counter& counter::operator=(const counter&)’ (deleted)
+    6 | class counter {
+      |       ^~~~~~~
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota:   no hay una conversión conocida para el argumento 1 de ‘int’ a ‘const counter&’
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota: candidate: ‘counter& counter::operator=(counter&&)’ (deleted)
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota:   no hay una conversión conocida para el argumento 1 de ‘int’ a ‘counter&&’
+gmake[2]: *** [CMakeFiles/counter.dir/build.make:76: CMakeFiles/counter.dir/counter_mutex_for.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/counter.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/debug
+Consolidate compiler generated dependencies of target counter
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp: En la función ‘int main()’:
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:31:25: error: no match for ‘operator=’ (operand types are ‘counter’ and ‘int’)
+   31 |                 count = 0;
+      |                         ^
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota: candidate: ‘counter& counter::operator=(const counter&)’ (deleted)
+    6 | class counter {
+      |       ^~~~~~~
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota:   no hay una conversión conocida para el argumento 1 de ‘int’ a ‘const counter&’
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota: candidate: ‘counter& counter::operator=(counter&&)’ (deleted)
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota:   no hay una conversión conocida para el argumento 1 de ‘int’ a ‘counter&&’
+gmake[2]: *** [CMakeFiles/counter.dir/build.make:76: CMakeFiles/counter.dir/counter_mutex_for.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/counter.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/release-tsan
+Consolidate compiler generated dependencies of target counter
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp: En la función ‘int main()’:
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:31:25: error: no match for ‘operator=’ (operand types are ‘counter’ and ‘int’)
+   31 |                 count = 0;
+      |                         ^
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota: candidate: ‘counter& counter::operator=(const counter&)’ (deleted)
+    6 | class counter {
+      |       ^~~~~~~
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota:   no hay una conversión conocida para el argumento 1 de ‘int’ a ‘const counter&’
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota: candidate: ‘counter& counter::operator=(counter&&)’ (deleted)
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota:   no hay una conversión conocida para el argumento 1 de ‘int’ a ‘counter&&’
+gmake[2]: *** [CMakeFiles/counter.dir/build.make:76: CMakeFiles/counter.dir/counter_mutex_for.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/counter.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan
+Consolidate compiler generated dependencies of target counter
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp: En la función ‘int main()’:
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:31:25: error: no match for ‘operator=’ (operand types are ‘counter’ and ‘int’)
+   31 |                 count = 0;
+      |                         ^
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota: candidate: ‘counter& counter::operator=(const counter&)’ (deleted)
+    6 | class counter {
+      |       ^~~~~~~
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota:   no hay una conversión conocida para el argumento 1 de ‘int’ a ‘const counter&’
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota: candidate: ‘counter& counter::operator=(counter&&)’ (deleted)
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:6:7: nota:   no hay una conversión conocida para el argumento 1 de ‘int’ a ‘counter&&’
+gmake[2]: *** [CMakeFiles/counter.dir/build.make:76: CMakeFiles/counter.dir/counter_mutex_for.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/counter.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

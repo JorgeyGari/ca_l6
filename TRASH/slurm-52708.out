@@ -1,0 +1,28 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/release
+Consolidate compiler generated dependencies of target counter
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+[100%] Linking CXX executable counter
+[100%] Built target counter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/debug
+Consolidate compiler generated dependencies of target counter
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+[100%] Linking CXX executable counter
+[100%] Built target counter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/release-tsan
+Consolidate compiler generated dependencies of target counter
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+[100%] Linking CXX executable counter
+[100%] Built target counter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan
+Consolidate compiler generated dependencies of target counter
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+[100%] Linking CXX executable counter
+[100%] Built target counter

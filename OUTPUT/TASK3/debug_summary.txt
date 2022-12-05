@@ -1,0 +1,23 @@
+OUTPUT/16THR/debug_52888.out:Time = 1739372 microseconds
+OUTPUT/16THR/debug_52888.out:Time = 1732931 microseconds
+OUTPUT/16THR/debug_52888.out:Time = 1743234 microseconds
+OUTPUT/16THR/debug_52888.out:Time = 1702293 microseconds
+OUTPUT/16THR/debug_52888.out:Time = 1742727 microseconds
+
+OUTPUT/2THR/debug_52876.out:Time = 157203 microseconds
+OUTPUT/2THR/debug_52876.out:Time = 156527 microseconds
+OUTPUT/2THR/debug_52876.out:Time = 172501 microseconds
+OUTPUT/2THR/debug_52876.out:Time = 172666 microseconds
+OUTPUT/2THR/debug_52876.out:Time = 170818 microseconds
+
+OUTPUT/4THR/debug_52869.out:Time = 401279 microseconds
+OUTPUT/4THR/debug_52869.out:Time = 398157 microseconds
+OUTPUT/4THR/debug_52869.out:Time = 389124 microseconds
+OUTPUT/4THR/debug_52869.out:Time = 403097 microseconds
+OUTPUT/4THR/debug_52869.out:Time = 387053 microseconds
+
+OUTPUT/8THR/debug_52882.out:Time = 803202 microseconds
+OUTPUT/8THR/debug_52882.out:Time = 812899 microseconds
+OUTPUT/8THR/debug_52882.out:Time = 809806 microseconds
+OUTPUT/8THR/debug_52882.out:Time = 791648 microseconds
+OUTPUT/8THR/debug_52882.out:Time = 776301 microseconds

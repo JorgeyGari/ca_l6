@@ -1,0 +1,60 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/release
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp: En la función ‘int main()’:
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:33:35: error: ‘num_threads’ may be used uninitialized [-Werror=maybe-uninitialized]
+   33 |                 for (int i = 0; i < num_threads; ++i) {
+      |                                 ~~^~~~~~~~~~~~~
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:27:13: nota: ‘num_threads’ se declaró aquí
+   27 |         int num_threads;
+      |             ^~~~~~~~~~~
+cc1plus: todos los avisos se tratan como errores
+gmake[2]: *** [CMakeFiles/counter.dir/build.make:76: CMakeFiles/counter.dir/counter_mutex_for.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/counter.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/debug
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp: En la función ‘int main()’:
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:33:35: error: ‘num_threads’ may be used uninitialized [-Werror=maybe-uninitialized]
+   33 |                 for (int i = 0; i < num_threads; ++i) {
+      |                                 ~~^~~~~~~~~~~~~
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:27:13: nota: ‘num_threads’ se declaró aquí
+   27 |         int num_threads;
+      |             ^~~~~~~~~~~
+cc1plus: todos los avisos se tratan como errores
+gmake[2]: *** [CMakeFiles/counter.dir/build.make:76: CMakeFiles/counter.dir/counter_mutex_for.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/counter.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/release-tsan
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp: En la función ‘int main()’:
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:33:35: error: ‘num_threads’ may be used uninitialized [-Werror=maybe-uninitialized]
+   33 |                 for (int i = 0; i < num_threads; ++i) {
+      |                                 ~~^~~~~~~~~~~~~
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:27:13: nota: ‘num_threads’ se declaró aquí
+   27 |         int num_threads;
+      |             ^~~~~~~~~~~
+cc1plus: todos los avisos se tratan como errores
+gmake[2]: *** [CMakeFiles/counter.dir/build.make:76: CMakeFiles/counter.dir/counter_mutex_for.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/counter.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_mutex_for.cpp.o
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp: En la función ‘int main()’:
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:33:35: error: ‘num_threads’ may be used uninitialized [-Werror=maybe-uninitialized]
+   33 |                 for (int i = 0; i < num_threads; ++i) {
+      |                                 ~~^~~~~~~~~~~~~
+/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_mutex_for.cpp:27:13: nota: ‘num_threads’ se declaró aquí
+   27 |         int num_threads;
+      |             ^~~~~~~~~~~
+cc1plus: todos los avisos se tratan como errores
+gmake[2]: *** [CMakeFiles/counter.dir/build.make:76: CMakeFiles/counter.dir/counter_mutex_for.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/counter.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

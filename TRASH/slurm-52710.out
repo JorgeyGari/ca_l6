@@ -1,0 +1,12 @@
+rm: no se puede borrar 'OUTPUT/16-THREADS': Es un directorio
+rm: no se puede borrar 'OUTPUT/2-THREADS': Es un directorio
+rm: no se puede borrar 'OUTPUT/4-THREADS': Es un directorio
+rm: no se puede borrar 'OUTPUT/8-THREADS': Es un directorio
+--- DEBUG ---
+Submitted batch job 52711
+--- RELEASE ---
+Submitted batch job 52712
+--- DEBUG-TSAN ---
+Submitted batch job 52713
+--- RELEASE-TSAN ---
+Submitted batch job 52714
