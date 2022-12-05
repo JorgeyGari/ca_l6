@@ -1,1 +1,0 @@
-/opt/gcc-12.1.0/bin/g++ -fsanitize=thread -g CMakeFiles/counter.dir/counter_atomic.cpp.o -o counter  -lpthread 

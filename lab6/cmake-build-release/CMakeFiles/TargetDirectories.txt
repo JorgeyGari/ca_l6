@@ -1,3 +1,0 @@
-/home/alumnos/a0452172/ComputerArchitecture/lab6/cmake-build-release/CMakeFiles/counter.dir
-/home/alumnos/a0452172/ComputerArchitecture/lab6/cmake-build-release/CMakeFiles/edit_cache.dir
-/home/alumnos/a0452172/ComputerArchitecture/lab6/cmake-build-release/CMakeFiles/rebuild_cache.dir
