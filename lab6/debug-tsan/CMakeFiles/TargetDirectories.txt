@@ -1,0 +1,3 @@
+/home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan/CMakeFiles/counter.dir
+/home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan/CMakeFiles/edit_cache.dir
+/home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan/CMakeFiles/rebuild_cache.dir

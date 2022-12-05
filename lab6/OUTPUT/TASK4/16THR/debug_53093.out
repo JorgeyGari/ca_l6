@@ -1,0 +1,19 @@
+--- TEST 1 ---
+counter = 1.6e+06
+Time = 968947 microseconds
+
+--- TEST 2 ---
+counter = 1.6e+06
+Time = 950429 microseconds
+
+--- TEST 3 ---
+counter = 1.6e+06
+Time = 945254 microseconds
+
+--- TEST 4 ---
+counter = 1.6e+06
+Time = 950037 microseconds
+
+--- TEST 5 ---
+counter = 1.6e+06
+Time = 960937 microseconds

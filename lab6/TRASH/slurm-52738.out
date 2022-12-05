@@ -1,0 +1,9 @@
+rm: no se puede borrar 'OUTPUT/*': No existe el fichero o el directorio
+--- DEBUG ---
+Submitted batch job 52739
+--- RELEASE ---
+Submitted batch job 52740
+--- DEBUG-TSAN ---
+Submitted batch job 52741
+--- RELEASE-TSAN ---
+Submitted batch job 52742

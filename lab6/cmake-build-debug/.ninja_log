@@ -1,0 +1,4 @@
+# ninja log v5
+1112	1197	1670260142915730706	counter	b5cd91d2a9f8d267
+0	992	1670259937192247697	CMakeFiles/counter.dir/counter_atomic.cpp.o	1d163364969be900
+0	1110	1670260142827729217	CMakeFiles/counter.dir/counter.cpp.o	bf30191a9d7fec93

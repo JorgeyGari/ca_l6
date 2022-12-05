@@ -1,0 +1,24 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/release
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_atomic.cpp.o
+[100%] Linking CXX executable counter
+[100%] Built target counter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/debug
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_atomic.cpp.o
+[100%] Linking CXX executable counter
+[100%] Built target counter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/release-tsan
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_atomic.cpp.o
+[100%] Linking CXX executable counter
+[100%] Built target counter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan
+[ 50%] Building CXX object CMakeFiles/counter.dir/counter_atomic.cpp.o
+[100%] Linking CXX executable counter
+[100%] Built target counter
