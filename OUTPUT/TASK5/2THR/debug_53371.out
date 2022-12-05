@@ -1,0 +1,19 @@
+--- TEST 1 ---
+counter = 200000
+Time = 522314 microseconds
+
+--- TEST 2 ---
+counter = 200000
+Time = 190898 microseconds
+
+--- TEST 3 ---
+counter = 200000
+Time = 189495 microseconds
+
+--- TEST 4 ---
+counter = 200000
+Time = 385475 microseconds
+
+--- TEST 5 ---
+counter = 200000
+Time = 490162 microseconds

@@ -36,11 +36,15 @@ int main() {
 
   counter count;
 
+  spinlock_mutex spin;
+
   std::vector<std::thread> tasks;
   for (int i = 0; i < num_threads; ++i) {
     tasks.emplace_back([&] {
       for (int i = 0; i < 100'000; ++i) {
+      	spin.lock();
         count.update();
+	spin.unlock();
       }
     });
   }

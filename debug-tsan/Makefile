@@ -129,29 +129,29 @@ counter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/build
 .PHONY : counter/fast
 
-counter_atomic.o: counter_atomic.cpp.o
-.PHONY : counter_atomic.o
+counter_spin_seq.o: counter_spin_seq.cpp.o
+.PHONY : counter_spin_seq.o
 
 # target to build an object file
-counter_atomic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_atomic.cpp.o
-.PHONY : counter_atomic.cpp.o
+counter_spin_seq.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_seq.cpp.o
+.PHONY : counter_spin_seq.cpp.o
 
-counter_atomic.i: counter_atomic.cpp.i
-.PHONY : counter_atomic.i
+counter_spin_seq.i: counter_spin_seq.cpp.i
+.PHONY : counter_spin_seq.i
 
 # target to preprocess a source file
-counter_atomic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_atomic.cpp.i
-.PHONY : counter_atomic.cpp.i
+counter_spin_seq.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_seq.cpp.i
+.PHONY : counter_spin_seq.cpp.i
 
-counter_atomic.s: counter_atomic.cpp.s
-.PHONY : counter_atomic.s
+counter_spin_seq.s: counter_spin_seq.cpp.s
+.PHONY : counter_spin_seq.s
 
 # target to generate assembly for a file
-counter_atomic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_atomic.cpp.s
-.PHONY : counter_atomic.cpp.s
+counter_spin_seq.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_seq.cpp.s
+.PHONY : counter_spin_seq.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... counter"
-	@echo "... counter_atomic.o"
-	@echo "... counter_atomic.i"
-	@echo "... counter_atomic.s"
+	@echo "... counter_spin_seq.o"
+	@echo "... counter_spin_seq.i"
+	@echo "... counter_spin_seq.s"
 .PHONY : help
 
 

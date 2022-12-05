@@ -1,0 +1,23 @@
+TASK5/16THR/release_53406.out:Time = 40222618 microseconds
+TASK5/16THR/release_53406.out:Time = 48845974 microseconds
+TASK5/16THR/release_53406.out:Time = 48344058 microseconds
+TASK5/16THR/release_53406.out:Time = 47412421 microseconds
+TASK5/16THR/release_53406.out:Time = 40915692 microseconds
+
+TASK5/2THR/release_53372.out:Time = 558993 microseconds
+TASK5/2THR/release_53372.out:Time = 218839 microseconds
+TASK5/2THR/release_53372.out:Time = 232586 microseconds
+TASK5/2THR/release_53372.out:Time = 274613 microseconds
+TASK5/2THR/release_53372.out:Time = 239417 microseconds
+
+TASK5/4THR/release_53381.out:Time = 2208341 microseconds
+TASK5/4THR/release_53381.out:Time = 2965501 microseconds
+TASK5/4THR/release_53381.out:Time = 1960026 microseconds
+TASK5/4THR/release_53381.out:Time = 3224146 microseconds
+TASK5/4THR/release_53381.out:Time = 2696696 microseconds
+
+TASK5/8THR/release_53392.out:Time = 12002876 microseconds
+TASK5/8THR/release_53392.out:Time = 12161802 microseconds
+TASK5/8THR/release_53392.out:Time = 12390638 microseconds
+TASK5/8THR/release_53392.out:Time = 12948781 microseconds
+TASK5/8THR/release_53392.out:Time = 12308587 microseconds
