@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_seq.cpp" "CMakeFiles/counter.dir/counter_spin_seq.cpp.o" "gcc" "CMakeFiles/counter.dir/counter_spin_seq.cpp.o.d"
+  "/home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_ra.cpp" "CMakeFiles/counter.dir/counter_spin_ra.cpp.o" "gcc" "CMakeFiles/counter.dir/counter_spin_ra.cpp.o.d"
   )
 
 # Targets to which this target links.

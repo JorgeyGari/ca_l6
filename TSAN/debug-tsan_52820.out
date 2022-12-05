@@ -1,8 +1,0 @@
-counter = 200000
-Time = 163215 microseconds
-counter = 400000
-Time = 592573 microseconds
-counter = 800000
-Time = 1398543 microseconds
-counter = 1.6e+06
-Time = 3171475 microseconds

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/counter.dir/counter_spin_seq.cpp.o"
-  "CMakeFiles/counter.dir/counter_spin_seq.cpp.o.d"
+  "CMakeFiles/counter.dir/counter_spin_ra.cpp.o"
+  "CMakeFiles/counter.dir/counter_spin_ra.cpp.o.d"
   "counter"
   "counter.pdb"
 )

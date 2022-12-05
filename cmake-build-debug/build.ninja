@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/alumnos/a0452172/ComputerArchitecture/lab6/cmake-bui
 
 build cmake_object_order_depends_target_counter: phony || CMakeFiles/counter.dir
 
-build CMakeFiles/counter.dir/counter_atomic.cpp.o: CXX_COMPILER__counter_Debug /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_atomic.cpp || cmake_object_order_depends_target_counter
-  DEP_FILE = CMakeFiles/counter.dir/counter_atomic.cpp.o.d
+build CMakeFiles/counter.dir/counter_spin_ra.cpp.o: CXX_COMPILER__counter_Debug /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_ra.cpp || cmake_object_order_depends_target_counter
+  DEP_FILE = CMakeFiles/counter.dir/counter_spin_ra.cpp.o.d
   FLAGS = -g -Wall -Wextra -Werror -pedantic -pedantic-errors -std=gnu++2a
   OBJECT_DIR = CMakeFiles/counter.dir
   OBJECT_FILE_DIR = CMakeFiles/counter.dir
@@ -63,7 +63,7 @@ build CMakeFiles/counter.dir/counter_atomic.cpp.o: CXX_COMPILER__counter_Debug /
 #############################################
 # Link the executable counter
 
-build counter: CXX_EXECUTABLE_LINKER__counter_Debug CMakeFiles/counter.dir/counter_atomic.cpp.o
+build counter: CXX_EXECUTABLE_LINKER__counter_Debug CMakeFiles/counter.dir/counter_spin_ra.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lpthread
   OBJECT_DIR = CMakeFiles/counter.dir

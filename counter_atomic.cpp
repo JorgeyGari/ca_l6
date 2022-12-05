@@ -19,7 +19,7 @@ int main() {
   using namespace std::chrono;
   auto t1 = high_resolution_clock::now();
 
-  constexpr int num_threads = 16;
+  constexpr int num_threads = 2;
 
   counter count;
 

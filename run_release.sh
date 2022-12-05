@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH -o ./OUTPUT/release_%j.out # STDOUT
+#SBATCH -o ./OUTPUT/TASK7/2THR/release_%j.out # STDOUT
 export LD_LIBRARY_PATH=/opt/gcc-12.1.0/lib64
 echo --- TEST 1 ---
 release/counter
