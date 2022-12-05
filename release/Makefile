@@ -129,29 +129,29 @@ counter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/build
 .PHONY : counter/fast
 
-counter_mutex.o: counter_mutex.cpp.o
-.PHONY : counter_mutex.o
+counter_atomic.o: counter_atomic.cpp.o
+.PHONY : counter_atomic.o
 
 # target to build an object file
-counter_mutex.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_mutex.cpp.o
-.PHONY : counter_mutex.cpp.o
+counter_atomic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_atomic.cpp.o
+.PHONY : counter_atomic.cpp.o
 
-counter_mutex.i: counter_mutex.cpp.i
-.PHONY : counter_mutex.i
+counter_atomic.i: counter_atomic.cpp.i
+.PHONY : counter_atomic.i
 
 # target to preprocess a source file
-counter_mutex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_mutex.cpp.i
-.PHONY : counter_mutex.cpp.i
+counter_atomic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_atomic.cpp.i
+.PHONY : counter_atomic.cpp.i
 
-counter_mutex.s: counter_mutex.cpp.s
-.PHONY : counter_mutex.s
+counter_atomic.s: counter_atomic.cpp.s
+.PHONY : counter_atomic.s
 
 # target to generate assembly for a file
-counter_mutex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_mutex.cpp.s
-.PHONY : counter_mutex.cpp.s
+counter_atomic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_atomic.cpp.s
+.PHONY : counter_atomic.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... counter"
-	@echo "... counter_mutex.o"
-	@echo "... counter_mutex.i"
-	@echo "... counter_mutex.s"
+	@echo "... counter_atomic.o"
+	@echo "... counter_atomic.i"
+	@echo "... counter_atomic.s"
 .PHONY : help
 
 

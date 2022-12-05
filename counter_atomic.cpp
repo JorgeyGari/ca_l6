@@ -6,7 +6,7 @@ class counter {
 public:
   counter() : value_{0}, time_{0} {}
 
-  void update() { value_++; time_ += 0.25; }
+  void update() { value_ += 1; time_ += 0.25; }
 
   void print() const { std::cout << "counter = " << value_ << "\n"; }
 

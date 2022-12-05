@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/counter.dir/counter_mutex.cpp.o"
-  "CMakeFiles/counter.dir/counter_mutex.cpp.o.d"
+  "CMakeFiles/counter.dir/counter_atomic.cpp.o"
+  "CMakeFiles/counter.dir/counter_atomic.cpp.o.d"
   "counter"
   "counter.pdb"
 )
