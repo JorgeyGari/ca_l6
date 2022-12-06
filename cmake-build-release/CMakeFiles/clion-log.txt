@@ -1,4 +1,0 @@
-/home/alumnos/a0452172/.cache/JetBrains/RemoteDev/dist/aba04351ed0da_CLion-2022.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/home/alumnos/a0452172/.cache/JetBrains/RemoteDev/dist/aba04351ed0da_CLion-2022.2.3/bin/ninja/linux/ninja -G Ninja -S /home/alumnos/a0452172/ComputerArchitecture/lab6 -B /home/alumnos/a0452172/ComputerArchitecture/lab6/cmake-build-release
--- Configuring done
--- Generating done
--- Build files have been written to: /home/alumnos/a0452172/ComputerArchitecture/lab6/cmake-build-release
