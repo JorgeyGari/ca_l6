@@ -12,7 +12,7 @@ public:
 
 private:
   double value_;
-  float time_;
+  double time_;
 };
 
 class spinlock_mutex {
@@ -44,7 +44,7 @@ int main() {
       for (int i = 0; i < 100'000; ++i) {
       	spin.lock();
         count.update();
-	spin.unlock();
+	    spin.unlock();
       }
     });
   }

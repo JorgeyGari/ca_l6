@@ -1,0 +1,23 @@
+TASK7R/16THR/debug_53895.out:Time = 4893725 microseconds
+TASK7R/16THR/debug_53895.out:Time = 5036201 microseconds
+TASK7R/16THR/debug_53895.out:Time = 4357991 microseconds
+TASK7R/16THR/debug_53895.out:Time = 4643955 microseconds
+TASK7R/16THR/debug_53895.out:Time = 4735366 microseconds
+
+TASK7R/2THR/debug_53877.out:Time = 73503 microseconds
+TASK7R/2THR/debug_53877.out:Time = 71909 microseconds
+TASK7R/2THR/debug_53877.out:Time = 68889 microseconds
+TASK7R/2THR/debug_53877.out:Time = 70925 microseconds
+TASK7R/2THR/debug_53877.out:Time = 71960 microseconds
+
+TASK7R/4THR/debug_53883.out:Time = 333058 microseconds
+TASK7R/4THR/debug_53883.out:Time = 335885 microseconds
+TASK7R/4THR/debug_53883.out:Time = 333483 microseconds
+TASK7R/4THR/debug_53883.out:Time = 336498 microseconds
+TASK7R/4THR/debug_53883.out:Time = 347067 microseconds
+
+TASK7R/8THR/debug_53889.out:Time = 1070749 microseconds
+TASK7R/8THR/debug_53889.out:Time = 1183171 microseconds
+TASK7R/8THR/debug_53889.out:Time = 1221092 microseconds
+TASK7R/8THR/debug_53889.out:Time = 1347674 microseconds
+TASK7R/8THR/debug_53889.out:Time = 1293367 microseconds

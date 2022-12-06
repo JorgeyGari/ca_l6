@@ -20,7 +20,7 @@ class spinlock_mutex {
 		spinlock_mutex(): flag_{}{}
 		void lock() {
 			while (flag_.test_and_set(std::memory_order_acquire)) {
-                while (flag_.test_and_set(std::memory_order_relaxed)) {}
+                while (flag_.test(std::memory_order_relaxed)) {}
             }
 		}
 		void unlock() {
@@ -34,7 +34,7 @@ int main() {
   using namespace std::chrono;
   auto t1 = high_resolution_clock::now();
 
-  constexpr int num_threads = 2;
+  constexpr int num_threads = 16;
 
   counter count;
 
@@ -46,7 +46,7 @@ int main() {
       for (int i = 0; i < 100'000; ++i) {
       	spin.lock();
         count.update();
-	spin.unlock();
+	    spin.unlock();
       }
     });
   }

@@ -20,7 +20,7 @@ class spinlock_mutex {
 		spinlock_mutex(): flag_{}{}
 		void lock() {
 			while (flag_.test_and_set(std::memory_order_seq_cst)) {
-                while (flag_.test_and_set(std::memory_order_relaxed)) {}
+                while (flag_.test(std::memory_order_relaxed)) {}
             }
 		}
 		void unlock() {
@@ -46,7 +46,7 @@ int main() {
       for (int i = 0; i < 100'000; ++i) {
       	spin.lock();
         count.update();
-	spin.unlock();
+	    spin.unlock();
       }
     });
   }

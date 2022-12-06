@@ -1,0 +1,19 @@
+--- TEST 1 ---
+counter = 800000
+Time = 1070749 microseconds
+
+--- TEST 2 ---
+counter = 800000
+Time = 1183171 microseconds
+
+--- TEST 3 ---
+counter = 800000
+Time = 1221092 microseconds
+
+--- TEST 4 ---
+counter = 800000
+Time = 1347674 microseconds
+
+--- TEST 5 ---
+counter = 800000
+Time = 1293367 microseconds

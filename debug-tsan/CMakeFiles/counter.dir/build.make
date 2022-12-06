@@ -69,28 +69,28 @@ include CMakeFiles/counter.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/counter.dir/flags.make
 
-CMakeFiles/counter.dir/counter_spin_ra.cpp.o: CMakeFiles/counter.dir/flags.make
-CMakeFiles/counter.dir/counter_spin_ra.cpp.o: /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_ra.cpp
-CMakeFiles/counter.dir/counter_spin_ra.cpp.o: CMakeFiles/counter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/counter.dir/counter_spin_ra.cpp.o"
-	/opt/gcc-12.1.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/counter.dir/counter_spin_ra.cpp.o -MF CMakeFiles/counter.dir/counter_spin_ra.cpp.o.d -o CMakeFiles/counter.dir/counter_spin_ra.cpp.o -c /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_ra.cpp
+CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o: CMakeFiles/counter.dir/flags.make
+CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o: /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_seq_opt.cpp
+CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o: CMakeFiles/counter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o"
+	/opt/gcc-12.1.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o -MF CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o.d -o CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o -c /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_seq_opt.cpp
 
-CMakeFiles/counter.dir/counter_spin_ra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/counter.dir/counter_spin_ra.cpp.i"
-	/opt/gcc-12.1.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_ra.cpp > CMakeFiles/counter.dir/counter_spin_ra.cpp.i
+CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.i"
+	/opt/gcc-12.1.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_seq_opt.cpp > CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.i
 
-CMakeFiles/counter.dir/counter_spin_ra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/counter.dir/counter_spin_ra.cpp.s"
-	/opt/gcc-12.1.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_ra.cpp -o CMakeFiles/counter.dir/counter_spin_ra.cpp.s
+CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.s"
+	/opt/gcc-12.1.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alumnos/a0452172/ComputerArchitecture/lab6/counter_spin_seq_opt.cpp -o CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.s
 
 # Object files for target counter
 counter_OBJECTS = \
-"CMakeFiles/counter.dir/counter_spin_ra.cpp.o"
+"CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o"
 
 # External object files for target counter
 counter_EXTERNAL_OBJECTS =
 
-counter: CMakeFiles/counter.dir/counter_spin_ra.cpp.o
+counter: CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o
 counter: CMakeFiles/counter.dir/build.make
 counter: CMakeFiles/counter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alumnos/a0452172/ComputerArchitecture/lab6/debug-tsan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable counter"

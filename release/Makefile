@@ -129,29 +129,29 @@ counter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/build
 .PHONY : counter/fast
 
-counter_spin_ra.o: counter_spin_ra.cpp.o
-.PHONY : counter_spin_ra.o
+counter_spin_seq_opt.o: counter_spin_seq_opt.cpp.o
+.PHONY : counter_spin_seq_opt.o
 
 # target to build an object file
-counter_spin_ra.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_ra.cpp.o
-.PHONY : counter_spin_ra.cpp.o
+counter_spin_seq_opt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o
+.PHONY : counter_spin_seq_opt.cpp.o
 
-counter_spin_ra.i: counter_spin_ra.cpp.i
-.PHONY : counter_spin_ra.i
+counter_spin_seq_opt.i: counter_spin_seq_opt.cpp.i
+.PHONY : counter_spin_seq_opt.i
 
 # target to preprocess a source file
-counter_spin_ra.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_ra.cpp.i
-.PHONY : counter_spin_ra.cpp.i
+counter_spin_seq_opt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.i
+.PHONY : counter_spin_seq_opt.cpp.i
 
-counter_spin_ra.s: counter_spin_ra.cpp.s
-.PHONY : counter_spin_ra.s
+counter_spin_seq_opt.s: counter_spin_seq_opt.cpp.s
+.PHONY : counter_spin_seq_opt.s
 
 # target to generate assembly for a file
-counter_spin_ra.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_ra.cpp.s
-.PHONY : counter_spin_ra.cpp.s
+counter_spin_seq_opt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/counter.dir/build.make CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.s
+.PHONY : counter_spin_seq_opt.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... counter"
-	@echo "... counter_spin_ra.o"
-	@echo "... counter_spin_ra.i"
-	@echo "... counter_spin_ra.s"
+	@echo "... counter_spin_seq_opt.o"
+	@echo "... counter_spin_seq_opt.i"
+	@echo "... counter_spin_seq_opt.s"
 .PHONY : help
 
 

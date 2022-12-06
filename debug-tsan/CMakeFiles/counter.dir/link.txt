@@ -1,1 +1,1 @@
-/opt/gcc-12.1.0/bin/g++ -fsanitize=thread -g CMakeFiles/counter.dir/counter_spin_ra.cpp.o -o counter  -lpthread 
+/opt/gcc-12.1.0/bin/g++ -fsanitize=thread -g CMakeFiles/counter.dir/counter_spin_seq_opt.cpp.o -o counter  -lpthread 
